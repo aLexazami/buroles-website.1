@@ -1,0 +1,53 @@
+/* Side Options CSS */
+
+.side-options-container{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+.side-feedback-options,
+.side-faqs-options {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 50px;
+  width: 190px;
+  background-color: rgb(7, 90, 25);
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+.side-feedback-options:hover,
+.side-faqs-options:hover {
+  background-color: rgb(26, 183, 47);
+}
+
+.feedback-icons,
+.faqs-icons {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+
+.side-feedback-options a,
+.side-faqs-options a{
+  text-decoration: none;
+  color: white
+}
+
+.side-faqs-options h1,
+.side-feedback-options h1 {
+  color: white;
+  font-size: 15px;
+}
+
+.feedback-link,
+.faqs-link {
+  display: flex;;
+}

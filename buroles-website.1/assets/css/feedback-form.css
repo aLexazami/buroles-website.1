@@ -1,0 +1,88 @@
+/* Feedback Form Styles */
+.feedback-form-body {
+  line-height: 1.6;
+  background-image: linear-gradient(rgb(241, 246, 242), rgba(20, 136, 35, 0.99));
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.feedback-form-container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+
+}
+
+
+.feedback-form-header {
+  background-color: rgb(10, 130, 26);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.feedback-form-header h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.feedback-form-box {
+  background-color: white;
+  padding:20px;
+}
+
+.feedback-form-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.feedback-form-box input,
+.feedback-form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.feedback-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-form button:hover {
+  background-color: #218838;
+}
+
+/*Select Tag Navbar down style*/
+#region,
+#sex,
+#customer-type,
+#age,
+#service-availed,
+#date {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+}
+
+#age #age1 {
+  font-style: italic;
+}

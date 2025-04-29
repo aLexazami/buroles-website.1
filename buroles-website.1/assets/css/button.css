@@ -1,0 +1,26 @@
+th {
+    position: relative;
+    text-align: left;
+}
+
+th button {
+    position: absolute;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0;
+}
+
+th button:nth-child(1) {
+    top: 10px; /* Ascending button */
+}
+
+th button:nth-child(2) {
+    top: 25px; /* Descending button */
+}
+
+th button:hover {
+    color: #007BFF; /* Highlight color on hover */
+}

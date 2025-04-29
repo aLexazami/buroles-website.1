@@ -1,0 +1,59 @@
+
+
+.citizen-charter-form-box button:hover {
+  background-color: #218838;
+}
+
+.client-satisfaction-form-box {
+  background-color: white;
+  padding:20px;
+}
+
+
+.client-satisfaction-form button:hover {
+  background-color: #218838;
+}
+
+.client-satisfaction-form-box .cc-question {
+  font-weight: bold;
+}
+
+/*Text area styling*/
+#remarks {
+  padding:20px;
+  height:200px;
+  width:100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  resize:none;
+  background-color: #f9f9f9;
+}
+#remarks:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #ffffff;
+}
+
+/* Button Styles */
+
+.client-satisfaction-form-box .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-satisfaction-form-box button {
+  width: 300px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.client-satisfaction-form-box button:hover {
+  background-color: #218838;
+}

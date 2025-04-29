@@ -1,0 +1,78 @@
+
+/* Navigation Styling */
+.side-navigation-bar {
+  margin-top: 50px;
+  display: flex;
+  height: 100vh;
+}
+
+.side-navigation-group {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* Side Navigation Bar Styling */
+.feedback-nav,
+.logout-nav ,
+.dashboard-nav{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 230px;
+}
+
+.feedback-icons,
+.logout-icons,
+.home-icons {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+ .feedback-link,
+ .logout-link,
+ .dashboard-link{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+ .feedback-text,
+ .logout-text,
+ .dashboard-text {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Hover Effects for Links */
+.dashboard-link.active .dashboard-text, .feedback-link.active .feedback-text{
+  color: #06d6a0;
+  font-weight: bold;
+}
+
+/* Profile Class Styling */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}

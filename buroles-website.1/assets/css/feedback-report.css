@@ -1,0 +1,38 @@
+.feedback-filter-container {
+  padding:10px;
+}
+
+.feedback-filter-header p {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.feedback-filter-header {
+  background-color: #06d6a0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Feedback Filter Options Styling */
+.sorting-categories {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.sorting-categories label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sorting-categories select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

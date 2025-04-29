@@ -1,0 +1,15 @@
+/* Footer styles */
+
+.footer-container {
+  display: flex;
+  justify-content:center;
+  background-color: rgba(8, 91, 19, 0.99);
+  width: 100%;
+}
+
+.footer-container p {
+  color:white;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+

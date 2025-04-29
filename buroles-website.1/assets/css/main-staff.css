@@ -1,0 +1,73 @@
+/* Date Time Styling */
+
+.date-time-text {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.main-staff-body {
+  background-color: #d7e5db;
+}
+
+.content-display {
+  width: auto;
+  height: auto; /* Ensure height adjusts dynamically */
+  background-color: white;
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* Add scroll if content overflows */
+}
+
+/* Header Styling */
+.header {
+  height: 75px;
+  background-color: rgba(8, 91, 19, 0.99);
+  display: flex;
+  padding: 10px 20px;
+}
+
+.left-side-header {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left-side-header .bes-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.left-side-header .header-title {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.right-side-header {
+  margin-left: auto; /* Pushes the element to the right end */
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* Footer Styling */
+.footer-container {
+  display: flex;
+  justify-content:center;
+  background-color: rgba(8, 91, 19, 0.99);
+  width: 100%;
+  margin-top: 15px;
+}
+
+.footer {
+  color:white;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,59 @@
+
+/* Feedback Form Styles */
+
+/*.citizen-charter-form-container {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 130px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}*/
+
+/*.citizen-charter-form-box .cc-question {
+  font-weight: bold;
+}*/
+
+.citizen-charter-form-box-header {
+  background-color: rgb(10, 130, 26);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.citizen-charter-form-box-header h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.citizen-charter-form-box {
+  background-color: white;
+  padding:20px;
+  margin-top: 10px;
+  margin-bottom: 115px;
+}
+
+/* Button Styles */
+
+.citizen-charter-form-box .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.citizen-charter-form-box button {
+  width: 300px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.citizen-charter-form-box button:hover {
+  background-color: #218838;
+}
